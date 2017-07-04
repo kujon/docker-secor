@@ -1,8 +1,8 @@
-# Secor 0.22 _(Kafka 0.10.0.1)_
+# Secor 0.23 _(Kafka 0.10.0.1)_
 
 This project uses Docker (and Gradle under the hood) to produce a Docker image containing an uber-jar (single jar containing all dependencies) version of Pinterest Secor (https://github.com/pinterest/secor).
 
-Currently, this project packages Secor 0.22, using Kafka client version 0.10.0.1.
+Currently, this project packages Secor 0.23, using Kafka client version 0.10.0.1.
 
 `docker-entrypoint.sh` is the entrypoint into the image, it is responsible for taking passed in ENV vars at runtime and configuring Secor accordingly. The table below shows all ENV variables you can specify to configure Secor's operation.
 
